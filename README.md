@@ -111,7 +111,15 @@ Training the model on train of CIFAR for 10 epochs with a batch size of 32, resu
 
 
 In the next step using only the encoder part of the model to get representations of the training set. Few examples of the original and encoded images are as shown below.
+
+## enocded example 1
 ![img1](/assets/img1.png)
+
+## encoded example 2
 ![img2](/assets/img2.png)
+
+## encoded example 3
 ![img3](/assets/img3.png)
+
+
 Using the encoded representation on the clustering algorithm described in 4. The ASC score is found to be 0.1040 and Dunn’s index is 0.02. with 10 clusters.
